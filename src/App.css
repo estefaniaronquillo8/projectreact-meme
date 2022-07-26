@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+body {
+  background: url('https://wallpaper-house.com/data/out/10/wallpaper2you_454180.jpg')
+    white;
+  background-color: rgba(127, 255, 212, 0.567);
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  width: 100px;
+  height: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Location {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
+  width: 800px;
+  height: 800px;
+  justify-content: space-between;
+  align-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(226, 202, 163);
+  color: black;
+}
+.Whole {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 800px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select {
+  width: 300px;
 }
